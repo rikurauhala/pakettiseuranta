@@ -1,0 +1,29 @@
+Table Asiakkaat {
+  id INTEGER [pk, increment]
+  nimi TEXT [unique]
+}
+
+Table Paikat {
+  id INTEGER [pk, increment]
+  nimi TEXT [unique]
+}
+
+Table Paketit {
+  id INTEGER [pk, increment]
+  seurantakoodi TEXT [unique]
+  asiakas_id INTEGER
+ }
+
+Table Tapahtumat {
+  id INTEGER [pk, increment]
+  kuvaus TEXT
+  lisayshetki INTEGER
+  paketti_id INTEGER
+  paikka_id INTEGER
+}
+
+Ref: "Paketit"."id" < "Tapahtumat"."paketti_id"
+
+Ref: "Paikat"."id" < "Tapahtumat"."paikka_id"
+
+Ref: "Asiakkaat"."id" < "Paketit"."asiakas_id"
