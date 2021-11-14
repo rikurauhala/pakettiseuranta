@@ -1,4 +1,4 @@
-Pakettiseurantasovellus, harjoitustyö Helsingin yliopiston kurssia "Tietokantojen perusteet, kevät 2020" varten. Työn tarkoituksena oli harjoitella tietokannan suunnittelua ja käsittelyä ohjelmallisesti käyttäen SQLite-tietokannanhallintajärjestelmää. Sovellus on toteutettu Java-ohjelmointikielellä.
+Pakettiseurantasovellus, [harjoitustyö](https://tikape-k20.mooc.fi/harjoitustyo) Helsingin yliopiston kurssia "Tietokantojen perusteet, kevät 2020" varten. Työn tarkoituksena oli harjoitella tietokannan suunnittelua ja käsittelyä ohjelmallisesti käyttäen SQLite-tietokannanhallintajärjestelmää. Sovellus on toteutettu Java-ohjelmointikielellä.
 
 Sovellus ei ole tarkoitettu oikeaa käyttöä varten vaan se on puhtaasti harjoitustyö eikä esimerkiksi kaikkiin virhetilanteisiin ole varauduttu käyttäjäystävällisellä tavalla. 
 
